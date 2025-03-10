@@ -1,0 +1,7 @@
+#a simple script on while loops in HumanaT Programming
+repeat 5 times say "Hello"
+let y be 0
+while y is less than 3 do
+    say "y is " + y
+    let y be y + 1
+end
