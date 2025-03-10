@@ -1,0 +1,15 @@
+# HumanaT is based on Python so it can work alongside Python! Here is an example of using Python within HumanaT:
+
+# ReachHumanaT code
+let x be 5
+let y be 2
+
+if x is equal to 5 then
+    # Python code
+    print(f"y equals {y}")
+end
+
+# Back to ReachHumanaT code
+if y is not equal to 3 then
+    say "x equals " + x
+end
