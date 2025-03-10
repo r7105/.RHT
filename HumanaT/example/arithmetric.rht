@@ -1,0 +1,11 @@
+# a basic mathmatical operation output for addition, subtraction, multiplication and division in HumanaT Programming
+let a be 10
+let b be 20
+let c be a + b
+say "The sum of a and b is " + c
+let d be b - a
+say "The difference between b and a is " + d
+let e be a * b
+say "The product of a and b is " + e
+let f be b / a
+say "The division of b by a is " + f
