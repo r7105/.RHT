@@ -1,3 +1,4 @@
+# let __ be __ is how you set up variables
 let x be 5
 let y be 10
 let z be x + y
