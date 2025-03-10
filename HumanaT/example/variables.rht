@@ -1,0 +1,6 @@
+let x be 5
+let y be 10
+let z be x + y
+say "The value of x is " + x
+say "The value of y is " + y
+say "The sum of x and y is " + z
