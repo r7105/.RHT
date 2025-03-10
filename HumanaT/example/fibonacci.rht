@@ -1,0 +1,15 @@
+# a fibonacci example in HumanaT Progreamming, basically the code should return a sequence of numbers (0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...)
+let n be 10
+let a be 0
+let b be 1
+let count be 0
+
+say "Fibonacci sequence up to " + n + " terms:"
+
+while count is less than n do
+    say a
+    let nth be a + b
+    let a be b
+    let b be nth
+    let count be count + 1
+end
