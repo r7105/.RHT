@@ -2,6 +2,7 @@ class Interpreter:
     def __init__(self, statements):
         self.statements = statements
         self.variables = {}
+        self.functions = {}
 
     def run(self):
         for statement in self.statements:
@@ -22,6 +23,10 @@ class Interpreter:
             while self.evaluate(statement[1]):
                 for stmt in statement[2]:
                     self.execute(stmt)
+        elif statement[0] == 'functionStmt':
+            self.functions[statement[1]] = statement
+        elif statement[0] == 'returnStmt':
+            return self.evaluate(statement[1])
         else:
             raise RuntimeError('Unknown statement: ' + statement[0])
 
