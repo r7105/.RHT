@@ -1,6 +1,6 @@
 # ReachHumanaT
 
-ReachHumanaT is a new programming language designed to be human-readable and easy to use. It uses natural language syntax to make coding more intuitive and accessible.
+(Reach)HumanaT is a new programming language designed to be human-readable and easy to use. It uses natural language syntax to make coding more intuitive and accessible.
 
 ## Features
 
