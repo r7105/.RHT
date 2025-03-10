@@ -1,0 +1,11 @@
+function greet(name)
+    say "Hello, " + name + "!"
+endfunction
+
+function add(a, b)
+    return a + b
+endfunction
+
+greet("Alice")
+let result be add(3, 4)
+say "The sum of 3 and 4 is " + result
